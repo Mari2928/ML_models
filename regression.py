@@ -28,3 +28,5 @@ y_pred_manual = predict(X_test_bias, manual_weights)
 
 # Calculate Mean Squared Error for the manually set weights
 mse_manual = mean_squared_error(y_test, y_pred_manual)
+
+
